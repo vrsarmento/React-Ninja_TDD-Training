@@ -1,9 +1,7 @@
 {
   "scripts": {
-    "test": "jest",
-    "test:cov": "npm test --coverage",
-    "test:watch": "npm test -- --watchAll",
-    "test:watch-cov": "npm test -- --coverage --watchAll"
+    "test": "jest --coverage",
+    "test:watch": "npm test -- --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
